@@ -1,0 +1,18 @@
+
+.u-is-hidden {
+	display: none;
+}
+
+.u-float {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.u-float__item {
+		flex: 1;
+	}
+}
+
+.u-is-highlight {
+	background-color: orange;
+}

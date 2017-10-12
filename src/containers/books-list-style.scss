@@ -1,0 +1,24 @@
+@import '../style/foundation/_color';
+
+.bookList__title {
+	margin-top: 20px;
+	border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background: $primary-color;
+  color: white;
+  padding: 15px;
+}
+
+section {
+	display: flex;
+	justify-content: space-between;
+	background: $secondary-color;
+  padding: 7px 10px;
+}
+
+.bookList__list {
+	padding: 0 10px;
+  border: 1px solid $secondary-color;
+  border-top: transparent;
+  padding-top: 50px;
+}
