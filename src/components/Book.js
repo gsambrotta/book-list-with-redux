@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-// import './book.scss'
+import './Book.css';
 
 export default function Book (props) {
   const {id, imgs, categories, pubDate, title, authors } = props

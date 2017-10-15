@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { fetchBooks } from '../actions/books'
 import Book from '../components/Book'
 import throttle from 'lodash.throttle'
-// import './books-list-style.scss'
+import './BooksList.css';
 
 export class BooksList extends Component {
   constructor(props) {
